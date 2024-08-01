@@ -604,7 +604,7 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -1109,6 +1109,19 @@ section {
 /* t edit start */
 
 .hide_me {
+  display: none;
+}
+
+.portfolio-container .portfolio-wrap > img {
+  height: 520px;
+  object-fit: cover;
+  width: 100%;
+  object-position: top;
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+}
+
+.gdesc-inner {
   display: none;
 }
 
